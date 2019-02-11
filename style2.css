@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+.weekdays {
+    margin:0;
+    padding: 10px 0;
+    background-color: gray;
+    color: white;
+}
+.weekdays li {
+    display: inline-block;
+    width: 13.5%;
+    color: white;
+    text-align: center;
+}
+.days {
+    padding: 10px 0;
+    background: gray;
+    margin: 0;
+}
+.days li {
+    display: inline-block;
+    width: 13.5%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 30px;
+    
+}
+.main-cal {
+    width:900px;
+}
+.active {
+    background-color: blue;
+    padding: 10px;
+}
+.inactive {
+    color: rgb(107, 100, 100);
+    padding:10px;
+}
+.month {
+    font-size: 30px;
+    background: gray;
+    color:white;
+    padding: 15px;
+    
+}
